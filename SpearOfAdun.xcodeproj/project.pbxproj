@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABB78F062045398500D1E4DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB78F052045398500D1E4DE /* AppDelegate.swift */; };
+		ABB78F082045398500D1E4DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB78F072045398500D1E4DE /* ViewController.swift */; };
+		ABB78F0B2045398500D1E4DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABB78F092045398500D1E4DE /* Main.storyboard */; };
+		ABB78F0D2045398500D1E4DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABB78F0C2045398500D1E4DE /* Assets.xcassets */; };
+		ABB78F102045398500D1E4DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABB78F0E2045398500D1E4DE /* LaunchScreen.storyboard */; };
+		ABB78F1B2045398500D1E4DE /* SpearOfAdunTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB78F1A2045398500D1E4DE /* SpearOfAdunTests.swift */; };
+		ABB78F262045398500D1E4DE /* SpearOfAdunUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB78F252045398500D1E4DE /* SpearOfAdunUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABB78F172045398500D1E4DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABB78EFA2045398500D1E4DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABB78F012045398500D1E4DE;
+			remoteInfo = SpearOfAdun;
+		};
+		ABB78F222045398500D1E4DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABB78EFA2045398500D1E4DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABB78F012045398500D1E4DE;
+			remoteInfo = SpearOfAdun;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ABB78F022045398500D1E4DE /* SpearOfAdun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpearOfAdun.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABB78F052045398500D1E4DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ABB78F072045398500D1E4DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ABB78F0A2045398500D1E4DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ABB78F0C2045398500D1E4DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABB78F0F2045398500D1E4DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ABB78F112045398500D1E4DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABB78F162045398500D1E4DE /* SpearOfAdunTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpearOfAdunTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABB78F1A2045398500D1E4DE /* SpearOfAdunTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpearOfAdunTests.swift; sourceTree = "<group>"; };
+		ABB78F1C2045398500D1E4DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABB78F212045398500D1E4DE /* SpearOfAdunUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpearOfAdunUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABB78F252045398500D1E4DE /* SpearOfAdunUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpearOfAdunUITests.swift; sourceTree = "<group>"; };
+		ABB78F272045398500D1E4DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABB78EFF2045398500D1E4DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABB78F132045398500D1E4DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABB78F1E2045398500D1E4DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABB78EF92045398500D1E4DE = {
+			isa = PBXGroup;
+			children = (
+				ABB78F042045398500D1E4DE /* SpearOfAdun */,
+				ABB78F192045398500D1E4DE /* SpearOfAdunTests */,
+				ABB78F242045398500D1E4DE /* SpearOfAdunUITests */,
+				ABB78F032045398500D1E4DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABB78F032045398500D1E4DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABB78F022045398500D1E4DE /* SpearOfAdun.app */,
+				ABB78F162045398500D1E4DE /* SpearOfAdunTests.xctest */,
+				ABB78F212045398500D1E4DE /* SpearOfAdunUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABB78F042045398500D1E4DE /* SpearOfAdun */ = {
+			isa = PBXGroup;
+			children = (
+				ABB78F052045398500D1E4DE /* AppDelegate.swift */,
+				ABB78F072045398500D1E4DE /* ViewController.swift */,
+				ABB78F092045398500D1E4DE /* Main.storyboard */,
+				ABB78F0C2045398500D1E4DE /* Assets.xcassets */,
+				ABB78F0E2045398500D1E4DE /* LaunchScreen.storyboard */,
+				ABB78F112045398500D1E4DE /* Info.plist */,
+			);
+			path = SpearOfAdun;
+			sourceTree = "<group>";
+		};
+		ABB78F192045398500D1E4DE /* SpearOfAdunTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABB78F1A2045398500D1E4DE /* SpearOfAdunTests.swift */,
+				ABB78F1C2045398500D1E4DE /* Info.plist */,
+			);
+			path = SpearOfAdunTests;
+			sourceTree = "<group>";
+		};
+		ABB78F242045398500D1E4DE /* SpearOfAdunUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ABB78F252045398500D1E4DE /* SpearOfAdunUITests.swift */,
+				ABB78F272045398500D1E4DE /* Info.plist */,
+			);
+			path = SpearOfAdunUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABB78F012045398500D1E4DE /* SpearOfAdun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABB78F2A2045398500D1E4DE /* Build configuration list for PBXNativeTarget "SpearOfAdun" */;
+			buildPhases = (
+				ABB78EFE2045398500D1E4DE /* Sources */,
+				ABB78EFF2045398500D1E4DE /* Frameworks */,
+				ABB78F002045398500D1E4DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpearOfAdun;
+			productName = SpearOfAdun;
+			productReference = ABB78F022045398500D1E4DE /* SpearOfAdun.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABB78F152045398500D1E4DE /* SpearOfAdunTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABB78F2D2045398500D1E4DE /* Build configuration list for PBXNativeTarget "SpearOfAdunTests" */;
+			buildPhases = (
+				ABB78F122045398500D1E4DE /* Sources */,
+				ABB78F132045398500D1E4DE /* Frameworks */,
+				ABB78F142045398500D1E4DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABB78F182045398500D1E4DE /* PBXTargetDependency */,
+			);
+			name = SpearOfAdunTests;
+			productName = SpearOfAdunTests;
+			productReference = ABB78F162045398500D1E4DE /* SpearOfAdunTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ABB78F202045398500D1E4DE /* SpearOfAdunUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABB78F302045398500D1E4DE /* Build configuration list for PBXNativeTarget "SpearOfAdunUITests" */;
+			buildPhases = (
+				ABB78F1D2045398500D1E4DE /* Sources */,
+				ABB78F1E2045398500D1E4DE /* Frameworks */,
+				ABB78F1F2045398500D1E4DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABB78F232045398500D1E4DE /* PBXTargetDependency */,
+			);
+			name = SpearOfAdunUITests;
+			productName = SpearOfAdunUITests;
+			productReference = ABB78F212045398500D1E4DE /* SpearOfAdunUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABB78EFA2045398500D1E4DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Fan Long";
+				TargetAttributes = {
+					ABB78F012045398500D1E4DE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					ABB78F152045398500D1E4DE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ABB78F012045398500D1E4DE;
+					};
+					ABB78F202045398500D1E4DE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ABB78F012045398500D1E4DE;
+					};
+				};
+			};
+			buildConfigurationList = ABB78EFD2045398500D1E4DE /* Build configuration list for PBXProject "SpearOfAdun" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABB78EF92045398500D1E4DE;
+			productRefGroup = ABB78F032045398500D1E4DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABB78F012045398500D1E4DE /* SpearOfAdun */,
+				ABB78F152045398500D1E4DE /* SpearOfAdunTests */,
+				ABB78F202045398500D1E4DE /* SpearOfAdunUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABB78F002045398500D1E4DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB78F102045398500D1E4DE /* LaunchScreen.storyboard in Resources */,
+				ABB78F0D2045398500D1E4DE /* Assets.xcassets in Resources */,
+				ABB78F0B2045398500D1E4DE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABB78F142045398500D1E4DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABB78F1F2045398500D1E4DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABB78EFE2045398500D1E4DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB78F082045398500D1E4DE /* ViewController.swift in Sources */,
+				ABB78F062045398500D1E4DE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABB78F122045398500D1E4DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB78F1B2045398500D1E4DE /* SpearOfAdunTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABB78F1D2045398500D1E4DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB78F262045398500D1E4DE /* SpearOfAdunUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABB78F182045398500D1E4DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABB78F012045398500D1E4DE /* SpearOfAdun */;
+			targetProxy = ABB78F172045398500D1E4DE /* PBXContainerItemProxy */;
+		};
+		ABB78F232045398500D1E4DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABB78F012045398500D1E4DE /* SpearOfAdun */;
+			targetProxy = ABB78F222045398500D1E4DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ABB78F092045398500D1E4DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABB78F0A2045398500D1E4DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ABB78F0E2045398500D1E4DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABB78F0F2045398500D1E4DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABB78F282045398500D1E4DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ABB78F292045398500D1E4DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABB78F2B2045398500D1E4DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L5SXT5H6E9;
+				INFOPLIST_FILE = SpearOfAdun/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.longfan.SpearOfAdun;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABB78F2C2045398500D1E4DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L5SXT5H6E9;
+				INFOPLIST_FILE = SpearOfAdun/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.longfan.SpearOfAdun;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ABB78F2E2045398500D1E4DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L5SXT5H6E9;
+				INFOPLIST_FILE = SpearOfAdunTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.longfan.SpearOfAdunTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpearOfAdun.app/SpearOfAdun";
+			};
+			name = Debug;
+		};
+		ABB78F2F2045398500D1E4DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L5SXT5H6E9;
+				INFOPLIST_FILE = SpearOfAdunTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.longfan.SpearOfAdunTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpearOfAdun.app/SpearOfAdun";
+			};
+			name = Release;
+		};
+		ABB78F312045398500D1E4DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L5SXT5H6E9;
+				INFOPLIST_FILE = SpearOfAdunUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.longfan.SpearOfAdunUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpearOfAdun;
+			};
+			name = Debug;
+		};
+		ABB78F322045398500D1E4DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L5SXT5H6E9;
+				INFOPLIST_FILE = SpearOfAdunUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.longfan.SpearOfAdunUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpearOfAdun;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABB78EFD2045398500D1E4DE /* Build configuration list for PBXProject "SpearOfAdun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABB78F282045398500D1E4DE /* Debug */,
+				ABB78F292045398500D1E4DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABB78F2A2045398500D1E4DE /* Build configuration list for PBXNativeTarget "SpearOfAdun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABB78F2B2045398500D1E4DE /* Debug */,
+				ABB78F2C2045398500D1E4DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABB78F2D2045398500D1E4DE /* Build configuration list for PBXNativeTarget "SpearOfAdunTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABB78F2E2045398500D1E4DE /* Debug */,
+				ABB78F2F2045398500D1E4DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABB78F302045398500D1E4DE /* Build configuration list for PBXNativeTarget "SpearOfAdunUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABB78F312045398500D1E4DE /* Debug */,
+				ABB78F322045398500D1E4DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABB78EFA2045398500D1E4DE /* Project object */;
+}
