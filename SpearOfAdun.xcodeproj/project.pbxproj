@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F5E68CFBC9F5DDCF54424FA /* Pods_SpearOfAdun.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 374E4E800DE95B956486F8FB /* Pods_SpearOfAdun.framework */; };
+		2C10913C4C37EED2435FA92A /* Pods_SpearOfAdunUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C70814B894B8B297A197FB9C /* Pods_SpearOfAdunUITests.framework */; };
 		ABB78F062045398500D1E4DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB78F052045398500D1E4DE /* AppDelegate.swift */; };
 		ABB78F082045398500D1E4DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB78F072045398500D1E4DE /* ViewController.swift */; };
 		ABB78F0B2045398500D1E4DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABB78F092045398500D1E4DE /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		ABB78F102045398500D1E4DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABB78F0E2045398500D1E4DE /* LaunchScreen.storyboard */; };
 		ABB78F1B2045398500D1E4DE /* SpearOfAdunTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB78F1A2045398500D1E4DE /* SpearOfAdunTests.swift */; };
 		ABB78F262045398500D1E4DE /* SpearOfAdunUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB78F252045398500D1E4DE /* SpearOfAdunUITests.swift */; };
+		F88605D73579623A9658DE86 /* Pods_SpearOfAdunTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FED3E3423F80AC5BE7F8FC49 /* Pods_SpearOfAdunTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		374E4E800DE95B956486F8FB /* Pods_SpearOfAdun.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpearOfAdun.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BFA32E12759F5EA259C1D07 /* Pods-SpearOfAdunUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpearOfAdunUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpearOfAdunUITests/Pods-SpearOfAdunUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6ACC9FEDD56320AC32A992E7 /* Pods-SpearOfAdunTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpearOfAdunTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpearOfAdunTests/Pods-SpearOfAdunTests.release.xcconfig"; sourceTree = "<group>"; };
+		6C6ACF17AD088E971179F746 /* Pods-SpearOfAdunUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpearOfAdunUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpearOfAdunUITests/Pods-SpearOfAdunUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8D9F234D643B9BA96D369000 /* Pods-SpearOfAdun.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpearOfAdun.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpearOfAdun/Pods-SpearOfAdun.debug.xcconfig"; sourceTree = "<group>"; };
+		9A9D70C8B57F347BAB92FDCF /* Pods-SpearOfAdunTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpearOfAdunTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpearOfAdunTests/Pods-SpearOfAdunTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ABB78F022045398500D1E4DE /* SpearOfAdun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpearOfAdun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABB78F052045398500D1E4DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ABB78F072045398500D1E4DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +56,9 @@
 		ABB78F212045398500D1E4DE /* SpearOfAdunUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpearOfAdunUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABB78F252045398500D1E4DE /* SpearOfAdunUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpearOfAdunUITests.swift; sourceTree = "<group>"; };
 		ABB78F272045398500D1E4DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEB3B934ED956527500B5771 /* Pods-SpearOfAdun.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpearOfAdun.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpearOfAdun/Pods-SpearOfAdun.release.xcconfig"; sourceTree = "<group>"; };
+		C70814B894B8B297A197FB9C /* Pods_SpearOfAdunUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpearOfAdunUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FED3E3423F80AC5BE7F8FC49 /* Pods_SpearOfAdunTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpearOfAdunTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F5E68CFBC9F5DDCF54424FA /* Pods_SpearOfAdun.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F88605D73579623A9658DE86 /* Pods_SpearOfAdunTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C10913C4C37EED2435FA92A /* Pods_SpearOfAdunUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		458F9264BC9CC807872820E9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8D9F234D643B9BA96D369000 /* Pods-SpearOfAdun.debug.xcconfig */,
+				BEB3B934ED956527500B5771 /* Pods-SpearOfAdun.release.xcconfig */,
+				9A9D70C8B57F347BAB92FDCF /* Pods-SpearOfAdunTests.debug.xcconfig */,
+				6ACC9FEDD56320AC32A992E7 /* Pods-SpearOfAdunTests.release.xcconfig */,
+				4BFA32E12759F5EA259C1D07 /* Pods-SpearOfAdunUITests.debug.xcconfig */,
+				6C6ACF17AD088E971179F746 /* Pods-SpearOfAdunUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		ABB78EF92045398500D1E4DE = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +109,8 @@
 				ABB78F192045398500D1E4DE /* SpearOfAdunTests */,
 				ABB78F242045398500D1E4DE /* SpearOfAdunUITests */,
 				ABB78F032045398500D1E4DE /* Products */,
+				458F9264BC9CC807872820E9 /* Pods */,
+				D52381B0479FEFA8817822B9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +155,16 @@
 			path = SpearOfAdunUITests;
 			sourceTree = "<group>";
 		};
+		D52381B0479FEFA8817822B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				374E4E800DE95B956486F8FB /* Pods_SpearOfAdun.framework */,
+				FED3E3423F80AC5BE7F8FC49 /* Pods_SpearOfAdunTests.framework */,
+				C70814B894B8B297A197FB9C /* Pods_SpearOfAdunUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ABB78F2A2045398500D1E4DE /* Build configuration list for PBXNativeTarget "SpearOfAdun" */;
 			buildPhases = (
+				557FC0632FC3362769BD6275 /* [CP] Check Pods Manifest.lock */,
 				ABB78EFE2045398500D1E4DE /* Sources */,
 				ABB78EFF2045398500D1E4DE /* Frameworks */,
 				ABB78F002045398500D1E4DE /* Resources */,
+				3C9D9C49C60B1A17AA150F36 /* [CP] Embed Pods Frameworks */,
+				6F6DB1E93F85FC74D3AD86C3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ABB78F2D2045398500D1E4DE /* Build configuration list for PBXNativeTarget "SpearOfAdunTests" */;
 			buildPhases = (
+				1EA749BD2C622DF2ABEFC638 /* [CP] Check Pods Manifest.lock */,
 				ABB78F122045398500D1E4DE /* Sources */,
 				ABB78F132045398500D1E4DE /* Frameworks */,
 				ABB78F142045398500D1E4DE /* Resources */,
+				DCCB089C56E4C01C8B6481AD /* [CP] Embed Pods Frameworks */,
+				7C37E4DC4C9AD5D724E49244 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ABB78F302045398500D1E4DE /* Build configuration list for PBXNativeTarget "SpearOfAdunUITests" */;
 			buildPhases = (
+				38FB8A0E4675C54DD570B8B1 /* [CP] Check Pods Manifest.lock */,
 				ABB78F1D2045398500D1E4DE /* Sources */,
 				ABB78F1E2045398500D1E4DE /* Frameworks */,
 				ABB78F1F2045398500D1E4DE /* Resources */,
+				0D4E053F1A6ED3CFEC422A28 /* [CP] Embed Pods Frameworks */,
+				884E76B633EB788E34A475D6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +302,158 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D4E053F1A6ED3CFEC422A28 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpearOfAdunUITests/Pods-SpearOfAdunUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1EA749BD2C622DF2ABEFC638 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpearOfAdunTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38FB8A0E4675C54DD570B8B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpearOfAdunUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C9D9C49C60B1A17AA150F36 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SpearOfAdun/Pods-SpearOfAdun-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Apollo/Apollo.framework",
+				"${BUILT_PRODUCTS_DIR}/SQLite.swift/SQLite.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Apollo.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SQLite.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpearOfAdun/Pods-SpearOfAdun-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		557FC0632FC3362769BD6275 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpearOfAdun-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F6DB1E93F85FC74D3AD86C3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpearOfAdun/Pods-SpearOfAdun-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C37E4DC4C9AD5D724E49244 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpearOfAdunTests/Pods-SpearOfAdunTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		884E76B633EB788E34A475D6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpearOfAdunUITests/Pods-SpearOfAdunUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCCB089C56E4C01C8B6481AD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpearOfAdunTests/Pods-SpearOfAdunTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		ABB78EFE2045398500D1E4DE /* Sources */ = {
@@ -424,11 +625,13 @@
 		};
 		ABB78F2B2045398500D1E4DE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D9F234D643B9BA96D369000 /* Pods-SpearOfAdun.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = L5SXT5H6E9;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SpearOfAdun/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.longfan.SpearOfAdun;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -439,11 +642,13 @@
 		};
 		ABB78F2C2045398500D1E4DE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEB3B934ED956527500B5771 /* Pods-SpearOfAdun.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = L5SXT5H6E9;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SpearOfAdun/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.longfan.SpearOfAdun;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -454,6 +659,7 @@
 		};
 		ABB78F2E2045398500D1E4DE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A9D70C8B57F347BAB92FDCF /* Pods-SpearOfAdunTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +677,7 @@
 		};
 		ABB78F2F2045398500D1E4DE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6ACC9FEDD56320AC32A992E7 /* Pods-SpearOfAdunTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +695,7 @@
 		};
 		ABB78F312045398500D1E4DE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BFA32E12759F5EA259C1D07 /* Pods-SpearOfAdunUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +712,7 @@
 		};
 		ABB78F322045398500D1E4DE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C6ACF17AD088E971179F746 /* Pods-SpearOfAdunUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
